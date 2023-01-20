@@ -15,15 +15,15 @@ possiblech.forEach(ch =>ch.addEventListener('click',(e) => {
     user1=e.target.id
     if(user1 === 'rock')
     {
-        userch.src='rockWon.jpg'
+        userch.src='assets/rockWon.jpg'
     }
     if(user1 === 'paper')
     {
-        userch.src='paperWon.jpg'
+        userch.src='assets/paperWon.jpg'
     }
     if(user1 === 'scissors')
     {
-        userch.src='scissorHappy.jpg'
+        userch.src='assets/scissorHappy.jpg'
     }
     compChoice()
 }))
@@ -35,17 +35,17 @@ function compChoice()
     if(randomNum === 1)
     {
         comp1='rock'
-        compch.src='rockWon.jpg'
+        compch.src='assets/rockWon.jpg'
     }
     if(randomNum === 2)
     {
         comp1='paper'
-        compch.src='paperWon.jpg'
+        compch.src='assets/paperWon.jpg'
     }
     if(randomNum === 3)
     {
         comp1='scissors'
-        compch.src='scissorHappy.jpg'
+        compch.src='assets/scissorHappy.jpg'
     }
     result()
 }
@@ -55,31 +55,31 @@ function result()
     {
         if(user1 === 'rock')
         {
-            userch.src='rockLost.jpg'
-            compch.src='rockLost.jpg'
+            userch.src='assets/rockLost.jpg'
+            compch.src='assets/rockLost.jpg'
         }
         if(user1 === 'paper')
         {
-            userch.src='paperSad.jpg'
-            compch.src='paperSad.jpg'
+            userch.src='assets/paperSad.jpg'
+            compch.src='assets/paperSad.jpg'
         }
         if(user1 === 'scissors')
         {
-            userch.src='scissorSad.jpg'
-            compch.src='scissorSad.jpg'
+            userch.src='assets/scissorSad.jpg'
+            compch.src='assets/scissorSad.jpg'
         }
     }
     if(comp1==='rock')
     {
         if(user1==='paper')
         {
-            compch.src='rockLost.jpg'
+            compch.src='assets/rockLost.jpg'
             uPoint+=1
             userPt.innerHTML=uPoint
         }
         if(user1 === 'scissors')
         {
-            userch.src='scissorSad.jpg'
+            userch.src='assets/scissorSad.jpg'
             cPoint+=1
             compPt.innerHTML=cPoint
         }
@@ -88,13 +88,13 @@ function result()
     {
         if(user1==='rock')
         {
-            userch.src='rockLost.jpg'
+            userch.src='assets/rockLost.jpg'
             cPoint+=1
             compPt.innerHTML=cPoint
         }
         if(user1 === 'scissors')
         {
-            compch.src='paperSad.jpg'
+            compch.src='assets/paperSad.jpg'
             uPoint+=1
             userPt.innerHTML=uPoint
         }
@@ -103,13 +103,13 @@ function result()
     {
         if(user1==='rock')
         {
-            compch.src='scissorSad.jpg'
+            compch.src='assets/scissorSad.jpg'
             uPoint+=1
             userPt.innerHTML=uPoint
         }
         if(user1 === 'paper')
         {
-            userch.src='paperSad.jpg'
+            userch.src='assets/paperSad.jpg'
             cPoint+=1
             compPt.innerHTML=cPoint
         }
