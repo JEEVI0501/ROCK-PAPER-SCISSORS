@@ -1,0 +1,50 @@
+h2{
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+    background: -webkit-linear-gradient(rgb(59, 69, 70), rgb(117, 218, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40px;
+}
+
+#game1{
+    border: 3px solid black;
+    padding:20px;
+    height:max-content;
+    height:600px;
+    /* background-image: linear-gradient(rgb(59, 69, 70), rgb(117, 218, 230)); */
+}
+
+.common{
+    border: 3px solid black;
+    float:left;
+    padding:50px;
+    justify-content: center;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+#uch{
+    /* border: 3px solid black; */
+    margin-left:1250px;
+    
+}
+#up{
+    padding-left: 5px;
+    color: orangered;
+    font-weight: bolder;
+}
+#cp {
+    padding-left: 5px;
+    color:hotpink;
+    font-weight: bolder;
+}
+.common1{
+    font-family: "Times New Roman", Times, serif;
+    font-size:large;
+    padding: 20px;
+    float: left;
+    justify-content: center;
+    
+}
